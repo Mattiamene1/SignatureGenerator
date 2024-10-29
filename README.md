@@ -3,10 +3,10 @@ Outlook Signature Generator
 
 # Preliminary Steps
 
-## STEP 1: Build your .rtf signature using Word
+### STEP 1: Build your .rtf signature using Word
 First of all you need to build your .html file, then copy it into a Word file and save it as .rtf
 
-## STEP 2: Save it from Outlook
+### STEP 2: Save it from Outlook
 Go to Outlook client → "new message" → Signature → Signatures... 
 - New → Give the name "Template" → Copy in the body the content of your .rtf file → Fix the layout if necessary
 - Try the Template signature sending new email
@@ -15,17 +15,18 @@ Go to Outlook client → "new message" → Signature → Signatures...
   
 > I leave my Template_Signatures folder
 
-## STEP 3: Move these items to another folder
+### STEP 3: Move these items to another folder
 - Create the folder ```C:\Users\Administrator\AppData\Roaming\Microsoft\Template-Signatures```
 - Move the 3 files and the folder into *Template-Signatures*
-- 
-# STEP 4: Customize the script
+
+### STEP 4: Customize the script
 In the first rows set:
 - your domain (e.g. mydomain.com for the email address)
 - your default telephone number
 - 
-# STEP 5: Lauch the script
+### STEP 5: Lauch the script
 Open Windows Powershell and type ```& .\signatureGenerator.ps1```.
+> If you got some issues, type ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass``` and re-run the script
 
 It will ask some customizations, basically will replace some keywords from the template and then move it into the Outlook signature folder
 - *Insert NAME*: Set the name of the user, or the name of Shared Mailbox
@@ -37,6 +38,6 @@ It will ask some customizations, basically will replace some keywords from the t
 
 Then will be printed all the file moved and generated
 
-# STEP 6: Use the signature
+### STEP 6: Use the signature
 Open Outlook and look for the signature just created
 > NOTE: You can build more than one signature, since the *name* field is different 
