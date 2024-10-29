@@ -43,7 +43,7 @@ Open Outlook and look for the signature just created
 > NOTE: You can build more than one signature, since the *name* field is different 
 
 # Folder Config
-![alt text](h[ttp://url/to/img.png](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/FolderConfig.png)
+![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/FolderConfig.png)
 
 # Results
-![alt text]([http://url/to/img.png](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/Outlook.png)
+![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/Outlook.png)
