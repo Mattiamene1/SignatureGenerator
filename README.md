@@ -1,0 +1,2 @@
+# SignatureGenerator
+Outlook Signature Generator
