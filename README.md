@@ -41,3 +41,9 @@ Then will be printed all the file moved and generated
 ### STEP 6: Use the signature
 Open Outlook and look for the signature just created
 > NOTE: You can build more than one signature, since the *name* field is different 
+
+# Folder Config
+![alt text](http://url/to/img.png)
+
+# Results
+![alt text](http://url/to/img.png)
