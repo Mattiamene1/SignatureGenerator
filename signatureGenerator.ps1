@@ -30,9 +30,9 @@ $fullTxtPath = Join-Path -Path $baseFolder -ChildPath $fileNameTxt
 
 # Construct the email address: only name@doamin if surname is empty (For Shared Mailboxes)
 if(!$surname){
-	$email = ($name.ToLower() + $domain)
+	$email = ($name.ToLower() + "@" + $domain)
 }else{
-	$email = ($name.ToLower() + "." + $surname.ToLower() + $domain)
+	$email = ($name.ToLower() + "." + $surname.ToLower() + "@" + $domain)
 }
 
 #If telephone is empty, set default number
