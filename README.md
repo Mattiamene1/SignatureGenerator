@@ -6,6 +6,8 @@ Outlook Signature Generator
 ### STEP 1: Build your .rtf signature using Word
 First of all you need to build your .html file, then copy it into a Word file and save it as .rtf
 
+![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/rtfFile.PNG)
+
 ### STEP 2: Save it from Outlook
 Go to Outlook client → "new message" → Signature → Signatures... 
 - New → Give the name "Template" → Copy in the body the content of your .rtf file → Fix the layout if necessary
@@ -45,14 +47,14 @@ Open Outlook and look for the signature just created
 # Folder Config
 ![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/FolderConfig.png)
 
-# Results
-![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/Outlook.png)
+# Results 1 - User Mailbox
+![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/CustomizedMattia.png)
 
-### Parameters used
-Name: Vendite
+### Parameters used 1 - User Mailbox
+![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/MattiaParams.png)
 
-Surname: _blank_
+# Results 2 - Shared Mailbox
+![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/CustomizedSales.png)
 
-Reparto: Vendita Diretta
-
-Telefono: _blank_
+### Parameters used 2 - Shared Mailbox
+![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/sales.png)
