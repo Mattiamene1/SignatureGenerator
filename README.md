@@ -26,7 +26,7 @@ In the first rows set:
 - 
 ### STEP 5: Lauch the script
 Open Windows Powershell and type ```& .\signatureGenerator.ps1```.
-> If you got some issues, type ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass``` and re-run the script
+> If you got some issues, type ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```, Type *S* and re-run the script 
 
 It will ask some customizations, basically will replace some keywords from the template and then move it into the Outlook signature folder
 - *Insert NAME*: Set the name of the user, or the name of Shared Mailbox
