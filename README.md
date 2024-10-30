@@ -50,6 +50,9 @@ Open Outlook and look for the signature just created
 
 ### Parameters used
 Name: Vendite
-Surname: _blanck_
+
+Surname: _blank_
+
 Reparto: Vendita Diretta
+
 Telefono: _blank_
