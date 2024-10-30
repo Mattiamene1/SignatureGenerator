@@ -47,3 +47,9 @@ Open Outlook and look for the signature just created
 
 # Results
 ![alt text](https://github.com/Mattiamene1/SignatureGenerator/blob/main/Img/Outlook.png)
+
+### Parameters used
+Name: Vendite
+Surname: _blanck_
+Reparto: Vendita Diretta
+Telefono: _blank_
